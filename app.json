@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "WHAPP",
+    "slug": "WHAPP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e6c0a866-dd22-4e27-b8f4-6b8665c9f8cf"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0078d7"
+      },
+      "package": "com.samawan.WareHouseApp"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6c0a866-dd22-4e27-b8f4-6b8665c9f8cf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cli": {
+    "version": ">= 3.5.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "development"
+    },
+    "alpha": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "alpha"
+    },
+    "beta": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "beta"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

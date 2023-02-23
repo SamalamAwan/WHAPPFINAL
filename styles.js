@@ -1,0 +1,285 @@
+import { StyleSheet } from "react-native";
+import { Dimensions } from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+
+const styles = StyleSheet.create({
+    cardtitle: {
+        fontSize: 14,
+        fontWeight:"bold"
+    },
+    cardsubTitle: {
+        color: "#666"
+    },
+    fab: {
+        position: 'absolute',
+        margin: 25,
+        right: 0,
+        bottom: 0,
+        backgroundColor: "#0078d7",
+    },
+    fabGreen: {
+        position: 'absolute',
+        margin: 25,
+        right: 0,
+        bottom: 0,
+        backgroundColor: "green",
+    },
+    fabRaised: {
+        position: 'absolute',
+        margin: 25,
+        right: 0,
+        bottom: 60,
+        backgroundColor: "green",
+    },
+    fabRaisedX: {
+        position: 'absolute',
+        margin: 25,
+        right: 0,
+        bottom: 60,
+        backgroundColor: "red",
+    },
+    fabRaisedOrange: {
+        position: 'absolute',
+        margin: 25,
+        right: 0,
+        bottom: 60,
+        backgroundColor: "orange",
+    },
+    camera: {
+        flex: 1,
+        width: windowWidth,
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+    },
+    toggleButton: {
+        display: "flex",
+        flex: 2,
+        borderBottomColor: "#A4A4A4",
+        borderStyle: "solid",
+        borderBottomWidth: 1,
+        textAlignVertical: "center",
+        padding: 10,
+        backgroundColor: "#d7d7d7"
+    },
+    toggleButtonActive: {
+        flex: 3,
+        borderBottomColor: "#0078d7",
+        borderStyle: "solid",
+        borderBottomWidth: 2,
+        backgroundColor: "#0066b7"
+    },
+    toggleButtonText: {
+        color: "#B0b0b0",
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: 16,
+    },
+    toggleButtonTextActive: {
+        color: "#fff",
+        fontWeight: "bold",
+    },
+    BGimage: {
+        flex: 1,
+        resizeMode: "cover",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 0,
+        width: "100%",
+    },
+    photoBGimage: {
+        margin: 0,
+    },
+    loginContainer: {
+        flex: 1,
+        display: "flex",
+        width: "100%",
+        height: 500,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    loginWrapper: {
+        display: "flex",
+        flexGrow: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+        height: "100%",
+    },
+    logInInput: {
+        width: windowWidth - 100,
+        height: 42,
+        marginBottom: 15,
+        borderTopRightRadius: 0,
+        borderTopLeftRadius: 0,
+        backgroundColor: '#fff',
+        padding: 5,
+    },
+    logInButton: {
+        width: "100%",
+        height: 42,
+        margin: 10,
+    },
+    refreshButton: { marginVertical: 10 },
+    SignInLogo: {
+        maxWidth: 250,
+        maxHeight: 150,
+        flexGrow: 1,
+        marginVertical: 10,
+    },
+    homeIconSubText: {
+        textAlign: "center"
+    },
+    listView: {
+        alignContent: "center",
+    },
+    homeIconTitleContainer: {
+        textAlign: "center",
+        display: "flex",
+        flex: 1,
+        flexGrow: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "row",
+        marginHorizontal: 10,
+        marginVertical: 2,
+    },
+    homeIconSubTextContainer: {
+        textAlign: "center",
+        display: "flex",
+        flex: 1,
+        flexGrow: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "row",
+        marginHorizontal: 0,
+        marginVertical: 2,
+    },
+    homeIconTitleLeft: {
+        padding: 0,
+        margin: 0,
+        marginRight: 0,
+    },
+    homeSurface: {
+        padding: 0,
+        marginVertical: 5,
+        height: 150,
+        elevation: 2,
+        display: "flex",
+        flexDirection: "column",
+    },
+    HomeScreen: {
+        flex: 1,
+        alignItems: 'flex-start',
+        justifyContent: "space-evenly",
+        alignContent: "flex-start",
+        flexDirection: "row",
+        flexWrap: "wrap",
+    },
+    HomeScreenScroll: {
+        alignItems: 'center',
+        minWidth: windowWidth,
+        maxWidth: windowWidth,
+        justifyContent: "space-evenly",
+        alignContent: "flex-start",
+        flexDirection: "row",
+        flexWrap: "wrap",
+        paddingTop: 0,
+        paddingBottom: 50,
+    },
+    JobsScreenScroll: {
+        alignItems: 'center',
+        minWidth: windowWidth,
+        justifyContent: "space-evenly",
+        alignContent: "flex-start",
+        flexDirection: "column",
+        flexWrap: "nowrap",
+        paddingTop: 0,
+    },
+    NotesScreenScroll: {
+        alignItems: 'center',
+        minWidth: windowWidth,
+        justifyContent: "space-evenly",
+        alignContent: "flex-start",
+        flexDirection: "column",
+        flexWrap: "nowrap",
+        paddingTop: 0,
+        paddingBottom: 200,
+    },
+    menuIcon: {
+        marginLeft: 10,
+    },
+    listView: {
+        alignContent: "center",
+    },
+    titleText: {
+        textAlign: "center",
+    },
+    avatarIconPickup: {
+        backgroundColor: "#387c2b",
+        color:"white",
+        fill:"white",
+    },
+    avatarIconDriver: {
+        backgroundColor: "#0078d7",
+        color:"white",
+        fill:"white",
+    },
+    avatarIconCourier: {
+        backgroundColor: "#fedb00",
+        color:"white",
+        fill:"white",
+    },
+    cardsContent: {
+        borderLeftWidth: 10,
+        paddingVertical: 0,
+        paddingHorizontal: 0,
+        borderTopLeftRadius: 4,
+        borderBottomLeftRadius: 4,
+    },
+    cardsContentThin: {
+        borderLeftWidth: 5,
+        paddingVertical: 0,
+        paddingHorizontal: 0,
+        borderTopLeftRadius: 4,
+        borderBottomLeftRadius: 4,
+        minHeight: 40
+    },
+    cardsContent2: {
+        borderLeftWidth: 10,
+        paddingVertical: 0,
+        paddingHorizontal: 0,
+        borderTopLeftRadius: 4,
+        borderBottomLeftRadius: 4,
+        flexDirection: "row",
+    },
+    surface: {
+        padding: 8,
+        height: 250,
+        width: 250,
+        alignItems: 'center',
+        justifyContent: 'center',
+        elevation: 4,
+    },
+    surfaceSmall: {
+        padding: 8,
+        height: 125,
+        width: 125,
+        alignItems: 'center',
+        justifyContent: 'center',
+        elevation: 4,
+    },
+    barcodeImage: {
+        width: "100%",
+        height: "100%",
+    },
+    bottom: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: 0,
+        alignSelf: "flex-end",
+    },
+});
+
+export default styles;
