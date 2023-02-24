@@ -132,7 +132,7 @@ export const CameraDamageScreen = (props) => {
       }}>
         {currentPhotos}
       </View>
-      <Camera style={styles.camera} type={type} ref={cameraInstance} ratio="5:3" pictureSize="1280x768">
+      <Camera style={styles.camera} type={type} ref={cameraInstance}>
       </Camera>
       <IconButton
         icon={captureDisabled ? "cancel" : "plus-box"}
